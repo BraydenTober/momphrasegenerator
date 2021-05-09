@@ -1,0 +1,42 @@
+body {
+    background-image: url(images/mom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 2% 35%;
+}
+
+#main:hover {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+button {
+    margin: 10px 0px;
+    background: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 40px;
+    border-radius: 15px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 1;
+    background: rgba(255, 71, 71, 0.8);
+}
+
+#output {
+    padding: 20px 0px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
